@@ -1,0 +1,85 @@
+body {
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+.experience-detail-wrapper {
+  background-color: #0b0b0b;
+  color: white;
+  padding: 60px 40px;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('../assets/topography.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.experience-title {
+  font-size: 58px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.experience-main-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.experience-sidebar {
+  margin-top: 20px;
+  flex: 1;
+  max-width: 220px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.highlight {
+  color: #FFC107;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.experience-content {
+  flex: 3;
+  min-width: 300px;
+}
+
+.experience-description {
+  font-size: 18px;
+  max-width: 900px;
+  margin-bottom: 50px;
+  opacity: 0.9;
+  line-height: 1.8;
+}
+
+.experience-subsection {
+  background: #f8f8f8;
+  color: #111;
+  padding: 50px 40px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.experience-subsection h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.experience-subsection ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.experience-subsection li {
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 1.7;
+}
+.experience-subsection{
+  font-size: 20px;
+  line-height: 1.7;
+
+}
