@@ -9,17 +9,17 @@ import ripple from '../assets/ripple.svg';
 export default function Home() {
   const [startLeaf, setStartLeaf] = useState(false);
   const [showText, setShowText] = useState(false);
-  const [showFishOrbit, setShowFishOrbit] = useState(false);
-  const [settleFish, setSettleFish] = useState(false);
+  // const [showFishOrbit, setShowFishOrbit] = useState(false);
+  // const [settleFish, setSettleFish] = useState(false);
 
   useEffect(() => {
     setTimeout(() => setStartLeaf(true), 1000);
     setTimeout(() => setShowText(true), 2500);
-    setTimeout(() => setShowFishOrbit(true), 3500);
-    setTimeout(() => {
-      setShowFishOrbit(false);
-      setSettleFish(true);
-    }, 6500);
+    // setTimeout(() => setShowFishOrbit(true), 3500);
+    // setTimeout(() => {
+    //   setShowFishOrbit(false);
+    //   setSettleFish(true);
+    // }, 6500);
   }, []);
 
   return (

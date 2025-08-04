@@ -1,12 +1,9 @@
 .experience-section {
   display: flex;
+  padding: 100px 80px;
   flex-direction: column;
   gap: 80px;
-  padding: 100px 80px;
-  background-image: url('../assets/topography.svg');
-  background-repeat: repeat;
-  background-size: cover;
-  background-color: #080808;
+ 
 }
 
 .experience-section-title {

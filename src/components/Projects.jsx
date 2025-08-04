@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/Projects.css';
 import FoodWaste from '../assets/foodfolio.png'; 
 import Ai from '../assets/snapsummary.png'; 
 import Movie from '../assets/cinecore.png'; 
-import Health from '../assets/healthDashboard.png'; 
-import Money from '../assets/moneydashboard.png'; 
 import { FaArrowRight } from 'react-icons/fa';
 
 const projectData = [
@@ -14,62 +12,69 @@ const projectData = [
     description:
       'Foodfolio streamlines food management with surplus donations, inventory tracking, recipe organization, and meal planning, promoting efficiency, reducing waste, and sustainability.',
     image: FoodWaste,
+    link: 'https://food-folio.vercel.app/',
   },
   {
     heading: 'M O V I E\nE X P L O R I N G\nP L A T F O R M',
     description:
       'CineCore is an interactive platform for discovering movies and shows, offering detailed information, trending recommendations, and a seamless browsing experience.',
     image: Movie,
+    link: 'https://cinecore-sanya-bansals-projects.vercel.app/',
   },
   {
     heading: 'A I\nS U M M A R I Z E R',
     description:
       'SnapSummary instantly generates concise summaries of any article or webpage, helping you grasp key insights in seconds. Just paste a link, and get the gist fast, clear, and effortless.',
     image: Ai,
+    link: 'https://snapsummary-six.vercel.app/',
   },
 ];
 
 export default function Projects() {
-  const [showAll, setShowAll] = useState(false);
-
-  const toggleProjects = () => setShowAll(!showAll);
-
-  const displayedProjects = showAll ? projectData : projectData.slice(0, 3);
+  const displayedProjects = projectData;
 
   return (
     <section className="projects-section" id="projects">
-  <h2 className="projects-section-title">Projects</h2>
+      <h2 className="projects-section-title">Projects</h2>
+      
       {displayedProjects.map((project, index) => (
         <div className="project-item" key={index}>
           <div className="projects-content">
             {project.title && <p className="section-label">{project.title}</p>}
+
             <h1 className="project-heading">
               {project.heading.split('\n').map((line, i) => (
                 <div key={i}>{line}</div>
               ))}
             </h1>
+
             <p className="project-description">{project.description}</p>
-            <a href="#" className="learn-more">
+
+            <a 
+              href={project.link} 
+              className="learn-more" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
               Learn more <span>&gt;&gt;</span>
             </a>
           </div>
 
           <div className="projects-image-wrapper">
-            <div className="arrow-circle">
+            <a 
+              href={project.link} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="arrow-circle"
+            >
               <FaArrowRight />
-            </div>
+            </a>
             <div className="project-image-card">
               <img src={project.image} alt="project preview" />
             </div>
           </div>
         </div>
       ))}
-
-      <div className="toggle-button-wrapper">
-        <button onClick={toggleProjects} className="toggle-button">
-          {showAll ? 'show less' : 'view more'}
-        </button>
-      </div>
     </section>
   );
 }

@@ -252,6 +252,6 @@
   }
 
   .orbit {
-    display: none; /* Optionally hide fish animation on small screens */
+    display: none; 
   }
 }
