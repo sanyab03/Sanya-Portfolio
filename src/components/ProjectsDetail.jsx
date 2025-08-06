@@ -55,6 +55,33 @@ const projectsData = {
       'Gained hands-on experience with client-side storage and dynamic routing',
       'Strengthened my grasp on integrating third-party APIs with React apps'
     ]
+  },
+   'ai-summarizer': {
+    title: 'SnapSummary - AI Article Summarizer',
+    date: 'Apr 2025 - May 2025',
+    type: 'Frontend Personal Project',
+    year: '2025',
+    tech: 'React.js, Tailwind CSS, Redux Toolkit Query, RapidAPI (Article Summarizer)',
+    description: `SummarIQ is an AI-powered article summarizer that extracts key points from lengthy articles by leveraging an NLP-based summarization API. It allows users to input a URL and instantly get a clean, readable summary with the option to copy or download it. This project helped me explore AI integration and API-based data workflows in a React environment.`,
+    features: [
+      'Integrated RapidAPI’s article summarizer endpoint using Redux Toolkit Query',
+      'Designed a modern, responsive UI using Tailwind CSS',
+      'Enabled users to input article URLs and receive concise summaries in real-time',
+      'Built summary cards with copy-to-clipboard and download-as-text functionality',
+      'Implemented summary caching to avoid unnecessary API calls and improve performance'
+    ],
+    challenges: [
+      'Handling API limitations and managing rate-limiting gracefully',
+      'Managing asynchronous data flow with Redux Toolkit Query',
+      'Creating a user-friendly and accessible summary layout for varied text lengths',
+      'Avoiding redundant requests by caching previously summarized URLs'
+    ],
+    conclusion: [
+      'Learned how to work with NLP-based summarization tools and public APIs',
+      'Improved skills in state management with Redux Toolkit Query',
+      'Gained practical experience in building fast, responsive React UI for AI-backed features',
+      'Enhanced understanding of UX principles for handling large text data efficiently'
+    ]
   }
 };
 

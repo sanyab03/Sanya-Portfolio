@@ -24,7 +24,7 @@ const projectData = [
     image: Movie,
     link: 'https://cinecore-sanya-bansals-projects.vercel.app/',
   },
-  {
+  { id:'ai-summarizer',
     heading: 'A I\nS U M M A R I Z E R',
     description:
       'SnapSummary instantly generates concise summaries of any article or webpage, helping you grasp key insights in seconds. Just paste a link, and get the gist fast, clear, and effortless.',

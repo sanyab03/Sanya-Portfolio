@@ -21,8 +21,8 @@
 .logo-box {
   border: 1px solid #fff;
   padding: 6px 12px;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: semi-bold;
   letter-spacing: 2px;
   color: #fff;
 }
@@ -55,13 +55,13 @@
 }
 
 .hero-content h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   margin-bottom: 0.5rem;
 }
 
 .hero-content p {
-  font-size: 1.3rem;
-  color: #ccc;
+  font-size: 1.4rem;
+  color: #b9b9b9;
   margin-bottom: 1.5rem;
 }
 
@@ -123,35 +123,35 @@
 .leaf2 {
   top: 10%;
   right: 0;
-  width: 380px;
+  width: 360px;
   transform: rotate(35deg);
 }
 
 .leaf3 {
   bottom: 18%;
   right: 5%;
-  width: 320px;
+  width: 330px;
   transform: rotate(-160deg);
 }
 
 .leaf4 {
   bottom: 5%;
   right: 18%;
-  width: 280px;
+  width: 390px;
   transform: rotate(-15deg);
 }
 
 .leaf5 {
   bottom: 5%;
   left: 12%;
-  width: 340px;
+  width: 360px;
   transform: rotate(15deg);
 }
 
 .leaf6 {
   top: 38%;
   left: -6%;
-  width: 320px;
+  width: 330px;
   transform: rotate(40deg);
 }
 
@@ -204,6 +204,9 @@
 
   .hero-content h1 {
     font-size: 2.2rem;
+  }
+  .bg-leaf {
+    width: 190px !important;
   }
 
   .hero-content p {

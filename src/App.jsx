@@ -25,8 +25,8 @@ function App() {
                   style={{
                     backgroundImage: `url(${topography})`,
                     backgroundRepeat: 'repeat',
-                    backgroundSize: '70rem',
-                    backgroundColor: '#080808',
+                    backgroundSize: '54rem',
+                    backgroundColor: '#101010ff',
                   }}
                 >
                   <Experience />
