@@ -4,10 +4,12 @@ import FoodWaste from '../assets/foodfolio.png';
 import Ai from '../assets/snapsummary.png'; 
 import Movie from '../assets/cinecore.png'; 
 import { FaArrowRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const projectData = [
   {
     title: 'Front End Development Projects',
+    id:'foodfolio',
     heading: 'F O O D\nW A S T E\nM A N A G E M E N T\nP L A T F O R M',
     description:
       'Foodfolio streamlines food management with surplus donations, inventory tracking, recipe organization, and meal planning, promoting efficiency, reducing waste, and sustainability.',
@@ -15,6 +17,7 @@ const projectData = [
     link: 'https://food-folio.vercel.app/',
   },
   {
+    id:'cinecore',
     heading: 'M O V I E\nE X P L O R I N G\nP L A T F O R M',
     description:
       'CineCore is an interactive platform for discovering movies and shows, offering detailed information, trending recommendations, and a seamless browsing experience.',
@@ -50,14 +53,10 @@ export default function Projects() {
 
             <p className="project-description">{project.description}</p>
 
-            <a 
-              href={project.link} 
-              className="learn-more" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              Learn more <span>&gt;&gt;</span>
-            </a>
+            <Link to={`/projects/${project.id}`} className="learn-more">
+            Learn more <span>&gt;&gt;</span>
+             </Link>
+
           </div>
 
           <div className="projects-image-wrapper">

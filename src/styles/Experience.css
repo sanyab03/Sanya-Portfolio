@@ -71,6 +71,7 @@
   padding: 0.5rem;
   border-radius: 50%;
   margin-bottom: 0.5rem;
+  text-decoration: none;
 }
 .experience-image-wrapper {
   display: flex;
@@ -89,7 +90,6 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Floating animation */
 @keyframes floatImage {
   0% {
     transform: translateY(0px);
@@ -101,3 +101,75 @@
     transform: translateY(0px);
   }
 }
+
+
+@media (max-width: 768px) {
+   .experience-section {
+    padding: 60px 20px;
+    gap: 50px;
+  }
+
+  .experience-section-title {
+    font-size: 2rem;
+  }
+
+  .experience-item {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .experience-content {
+    max-width: 100%;
+  }
+
+  .company-name {
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+  .arrow-circle {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .experience-image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience-image-card {
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  .experience-image-card img {
+    width: 160px;
+    height: auto;
+    display: block;
+  }
+   .experience-role {
+    font-size: 1.1rem;
+  }
+
+  .experience-duration {
+    font-size: 0.95rem;
+  }
+
+  .experience-description {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  .learn-more-btn {
+    font-size: 14px;
+  }
+}
+

@@ -142,4 +142,63 @@
   background-color: #222;
   color: #f2b705;
 }
+@media (max-width: 768px) {
+  .projects-section {
+    padding: 60px 20px;
+    gap: 50px;
+  }
 
+  .projects-section-title {
+    font-size: 2rem;
+  }
+
+  .project-item {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .projects-content,
+  .projects-image-wrapper {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .project-heading {
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+
+  .project-description {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .section-label {
+    font-size: 20px;
+  }
+
+  .arrow-circle {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .project-image-card {
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .toggle-button-wrapper {
+    justify-content: center;
+  }
+
+  .toggle-button {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+}

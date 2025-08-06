@@ -78,8 +78,58 @@ body {
   font-size: 20px;
   line-height: 1.7;
 }
-.experience-subsection{
-  font-size: 20px;
-  line-height: 1.7;
 
+@media (max-width: 768px) {
+  .experience-detail-wrapper {
+    padding: 40px 20px;
+  }
+
+  .experience-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .experience-main-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .experience-sidebar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  .highlight {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .experience-content {
+    flex: unset;
+    min-width: 100%;
+  }
+
+  .experience-description {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .experience-subsection {
+    padding: 30px 20px;
+    border-radius: 10px;
+  }
+
+  .experience-subsection h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .experience-subsection li {
+    font-size: 16px;
+  }
 }
