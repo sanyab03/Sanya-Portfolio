@@ -27,6 +27,7 @@ function App() {
                     backgroundRepeat: 'repeat',
                     backgroundSize: '54rem',
                     backgroundColor: '#101010ff',
+                  
                   }}
                 >
                   <Experience />
