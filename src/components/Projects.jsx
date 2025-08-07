@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom';
 
 const projectData = [
   {
-    title: 'Front End Development Projects',
     id:'foodfolio',
     heading: 'F O O D\nW A S T E\nM A N A G E M E N T\nP L A T F O R M',
     description:

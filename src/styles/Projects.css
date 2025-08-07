@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+
 .projects-section {
   display: flex;
   flex-direction: column;
@@ -5,6 +8,7 @@
   padding: 100px 80px;
 }
 .projects-section-title {
+  font-family: "Bodoni Moda", serif;
   text-align: center;
   font-size: 2.5rem;
   font-weight: 700;
@@ -95,73 +99,59 @@
 
 @media (max-width: 1024px) {
   .project-item {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 30px;
   }
 
   .projects-content,
   .projects-image-wrapper {
-    max-width: 100%;
-  }
-
-  .arrow-circle {
-    left: 50%;
-    transform: translateX(-50%);
-    top: -25px;
+    flex: 1 1 300px;
+    max-width: 48%;
   }
 
   .project-heading {
     font-size: 28px;
-    letter-spacing: 6px;
+    letter-spacing: 3px;
+    text-align: left;
+  }
+
+  .project-description {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .arrow-circle {
+    left: -20px;
+    transform: none;
+    top: -20px;
   }
 
   .project-image-card {
-    margin-top: 40px;
+    margin-top: 0px;
+    padding: 20px;
   }
 }
 
-.toggle-button-wrapper {
-  width: 100%;
-  display: flex;
-  margin-top: 40px;
-}
-
-.toggle-button {
-  color: black;
-  background-color: #f2b705;
-  padding: 12px 30px;
-  border-radius: 30px;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.toggle-button:hover {
-  background-color: #222;
-  color: #f2b705;
-}
 @media (max-width: 768px) {
-  .projects-section {
-    padding: 60px 20px;
-    gap: 50px;
-  }
-
-  .projects-section-title {
-    font-size: 2rem;
-  }
-
   .project-item {
-    flex-direction: column;
-    gap: 30px;
-    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
   }
 
   .projects-content,
   .projects-image-wrapper {
+    flex: 1 1 300px;
     max-width: 100%;
-    min-width: 100%;
   }
 
   .project-heading {
@@ -171,8 +161,7 @@
 
   .project-description {
     font-size: 14px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    line-height: 1.5;
   }
 
   .section-label {
@@ -184,13 +173,11 @@
     height: 40px;
     font-size: 14px;
     top: -20px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 20px;
   }
 
   .project-image-card {
     padding: 20px;
-    margin-top: 30px;
   }
 
   .toggle-button-wrapper {

@@ -1,3 +1,5 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
 .custom-footer {
   display: flex;
   flex-wrap: wrap;
@@ -7,7 +9,6 @@
   font-family: 'Poppins', sans-serif;
   overflow: hidden;
 }
-
 .footer-left,
 .footer-about,
 .footer-contact {
@@ -24,7 +25,6 @@
   filter: grayscale(100%);
 }
 
-/* About section */
  .footer-about {
   background-color: #ffc400;
   color: #000;
@@ -49,6 +49,7 @@
   font-size: 2.5rem;
   margin-bottom: 0.75rem;
   font-weight: bold;
+  font-family: "Bodoni Moda", serif;
 }
 
 .footer-about p,
@@ -94,7 +95,6 @@
   color: #ffc400;
 } 
 
-/* Responsive Styles */
 @media (max-width: 1024px) {
   .custom-footer {
     flex-direction: column;
@@ -108,7 +108,7 @@
   }
 
   .footer-image {
-    max-height: 260px;
+    max-height: 380px !important;
     object-fit:cover;
   }
 
@@ -131,7 +131,7 @@
 @media (max-width: 768px) {
   .footer-about h2,
   .footer-contact h2 {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
   }
 
   .footer-about p,
@@ -156,4 +156,4 @@
 
 
 
-
+ 
