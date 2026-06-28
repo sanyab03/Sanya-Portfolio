@@ -13,7 +13,7 @@ const experienceData = [
     duration: 'August 2025 - Present',
     company: 'Amdocs',
     description:
-      'I investigate and reproduce reported issues to help teams debug and resolve problems efficiently. I build React-based enhancements for web applications and work with developers and stakeholders to verify fixes, maintain quality, and support ongoing product improvements.',
+      'Investigated and reproduced reported issues to support debugging, root cause analysis, and timely bug resolution. Built React based enhancements for internal tools and worked closely with developers to verify fixes and improve existing features. Used SQL and Linux for troubleshooting, validating changes, and supporting day-to-day tasks.',
     image: AmdocsLogo,
     darkLogo: true,
   },
@@ -23,7 +23,7 @@ const experienceData = [
     duration: 'Dec 2024 - Feb 2025',
     company: 'Celesti Ai',
     description:
-      'I contributed to the company website and Music Room platform, building responsive interfaces with React, Next.js, and Tailwind CSS. I turned Figma designs into reusable components and worked with design and backend teams to deliver clean, user-focused features.',
+      'Contributed to the development of the company website and the Music Room platform by building responsive user interfaces using React, Next.js, and Tailwind CSS. Converted Figma designs into reusable, maintainable components while collaborating with design and backend teams to deliver intuitive and user-focused features.',
     image: CelestAiLogo,
   },
   {
@@ -32,7 +32,7 @@ const experienceData = [
     duration: 'Apr 2024 - Sep 2024',
     company: 'Educare Grow4tech Technologies',
     description:
-      'I developed responsive frontends for a website rental platform and an e-commerce site using React and JavaScript. From mockups to API integration, I focused on polished interfaces and smooth communication between the frontend and backend.',
+      'Developed responsive frontends for a website rental platform and an e-commerce application using React and JavaScript. Built interfaces from design mockups, integrated REST APIs, and worked closely with backend developers to deliver a seamless and responsive user experience.',
     image: EducareLogo,
   },
 ];
@@ -50,9 +50,6 @@ export default function Experience() {
             <p className="company-name">{exp.company}</p>
             <p className="experience-description">{exp.description}</p>
 
-            <Link to={`/experience/${exp.id}`}>
-              <button className="learn-more-btn">Learn more  <span>&gt;&gt;</span></button>
-            </Link>
           </div>
 
           <div className="experience-image-wrapper">

@@ -13,15 +13,15 @@ export default function Footer() {
       <div className="footer-section footer-about">
         <h2>About</h2>
         <p>
-          Hey, I'm Sanya! I recently graduated with a B.Tech from Vivekananda Institute of Professional Studies - TC. I strive to build innovative solutions using a design-forward mindset.
+          Hi, I'm Sanya, a Software Developer with nearly a year of industry experience. I enjoy solving real world problems through software. I'm particularly interested in working with Java, React, MySQL, and Linux, and I'm excited to continue growing as a software engineer.
         </p>
-        <p>I'm currently open to internship and full-time Software Engineer opportunities.</p>
+        <p>Currently open to Software Developer opportunities.</p>
         <button className="resume-button">VIEW RESUME</button>
       </div>
 
       <div className="footer-section footer-contact">
         <h2>Contact</h2>
-        <p>The best stories are told in person. Let’s grab coffee and chat!</p>
+        <p>Have an opportunity or idea? I'd love to hear from you.</p>
 
         <div className="contact-item">
           <FaEnvelope />
