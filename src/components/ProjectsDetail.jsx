@@ -30,32 +30,6 @@ const projectsData = {
     ]
   },
 
-  cinecore: {
-    title: 'CineCore',
-    date: 'Mar 2025 - May 2025',
-    type: 'Frontend Side Project',
-    year: '2025',
-    tech: 'React.js, OMDb API, LocalStorage',
-    description: `CineCore is a movie search and watchlist app built using the OMDb API. It allows users to explore popular and upcoming movies, view details, and manage their personal watchlists with drag-and-drop reordering.`,
-    features: [
-      'Integrated OMDb API to fetch real-time movie data',
-      'Built “Opening This Week” and “Popular Movies” sections using dynamic endpoints',
-      'Implemented watchlist feature using LocalStorage and React state',
-      'Added drag-and-drop functionality to reorder movies in watchlist',
-      'Used React Router for dynamic movie detail pages'
-    ],
-    challenges: [
-      'Handling complex state transitions during drag-and-drop interactions',
-      'Maintaining persistence using LocalStorage between sessions',
-      'Designing a card-based layout that adapts across breakpoints',
-      'Dealing with incomplete or missing data from external APIs gracefully'
-    ],
-    conclusion: [
-      'Successfully built a multi-page movie browsing experience with local watchlist',
-      'Gained hands-on experience with client-side storage and dynamic routing',
-      'Strengthened my grasp on integrating third-party APIs with React apps'
-    ]
-  },
    'ai-summarizer': {
     title: 'SnapSummary - AI Article Summarizer',
     date: 'Apr 2025 - May 2025',

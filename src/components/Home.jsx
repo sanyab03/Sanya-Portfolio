@@ -67,7 +67,7 @@ export default function Home() {
           transition={{ duration: 1 }}
         >
           <h1>Sanya Bansal</h1>
-          <p>// portfolio 2025 //</p>
+          <p>// portfolio 2026 //</p>
           <button className="resume-btn">RESUME</button>
         </motion.div>
       )}

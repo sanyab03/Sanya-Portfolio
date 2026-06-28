@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/Projects.css';
 import FoodWaste from '../assets/foodfolio.png'; 
 import Ai from '../assets/snapsummary.png'; 
-import Movie from '../assets/cinecore.png'; 
 import { FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
@@ -14,14 +13,6 @@ const projectData = [
       'Foodfolio streamlines food management with surplus donations, inventory tracking, recipe organization, and meal planning, promoting efficiency, reducing waste, and sustainability.',
     image: FoodWaste,
     link: 'https://food-folio.vercel.app/',
-  },
-  {
-    id:'cinecore',
-    heading: 'M O V I E\nE X P L O R I N G\nP L A T F O R M',
-    description:
-      'CineCore is an interactive platform for discovering movies and shows, offering detailed information, trending recommendations, and a seamless browsing experience.',
-    image: Movie,
-    link: 'https://cinecore-sanya-bansals-projects.vercel.app/',
   },
   { id:'ai-summarizer',
     heading: 'A I\nS U M M A R I Z E R',
